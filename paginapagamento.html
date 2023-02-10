@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina de Login</title>
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
     <link
       href="
 https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css
@@ -48,38 +48,32 @@ https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css
       </nav>
     </header>
     <section>
-      <form class="form__usuario wrap">
-        <img
-          class="form__usuario__icone"
-          src="/images/usuario.png"
-          alt="Icone de usuário do login"
-        />
-        <div>
-          <label>Login</label>
-          <input class="input__login" />
-        </div>
-        <div>
-          <label>Senha</label>
-          <input class="input__login" />
-        </div>
-        <div>
-          <button
-            class="btn__login"
-            id="btnLogin"
-            href="index.html"
-            placeholder="Email"
-          >
-            Login
+      <div class="pagamento__formulario">
+        <form>
+          <h2 class="principal__titulo">Forma de Pagamento</h2>
+          <select id="estado" name="estado" class="campo__escrita">
+            <option value="credito">Credito</option>
+            <option value="debito">Débito</option>
+            <option value="boleto">boleto</option>
+          </select>
+          <div>
+            <label>Numero Cartão de Credito </label>
+            <input />
+          </div>
+          <div>
+            <label>Nome do Dono</label>
+            <input />
+          </div>
+          <div>
+            <label>Validade</label>
+            <input type="date" />
+          </div>
+          <button class="pagamento__botao">
+            <a href="index.html">Finalizar Pedido</a>
           </button>
-        </div>
-        <div>
-          <button class="btn__login" id="btnCadastro">
-            <a href="paginacadastro.html"> Cadastro </a>
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
-
     <footer class="rodape">
       <img
         class="logo__rodape"

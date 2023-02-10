@@ -159,7 +159,8 @@ body {
   background-color: var(--bg-color);
 }
 
-.btn__login {
+.btn__login,
+.btn__login a {
   margin: 10px 0 20px 0;
   padding: 20px;
   border-radius: 10px;
@@ -209,6 +210,7 @@ body {
 
 .carrinho__lista li {
   display: flex;
+  font-size: 20px;
   align-items: center;
   text-align: center;
   padding: 10px;
@@ -224,8 +226,24 @@ body {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
-  margin-top: 150px;
+  margin: 150px 0 40px 0;
   color: var(--main-color);
+}
+
+.carrinho__botao,
+.carrinho__botao a {
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--icons-color);
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: var(--main-color);
+  color: #000000;
 }
 
 /* Pagina do Itens */
@@ -264,23 +282,23 @@ body {
   float: right;
 }
 
-.item__botao {
+.item__preco {
   display: flex;
   max-height: 20%;
   margin-top: 20px;
   flex-direction: column;
 }
 
-.item__botao h3 {
+.item__preco h3 {
   font-weight: 500;
   font-size: 30px;
   text-align: center;
 }
 
-.item__botao button {
+.item__botao,
+.item__botao a {
   margin: 20px 0 20px 0;
   padding: 20px;
-  border-radius: 10px;
   border: none;
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
   cursor: pointer;
@@ -289,4 +307,133 @@ body {
   border-radius: 10px;
   font-size: 20px;
   background-color: var(--main-color);
+  color: #000000;
+}
+
+/* Pagina de pagamento */
+
+.pagamento__formulario {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  padding: 30px;
+}
+
+.pagamento__formulario form {
+  max-width: 80%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 36px 64px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.pagamento__botao,
+.pagamento__botao a {
+  background: var(--laranja);
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 3px;
+  border: none;
+  color: var(--branco);
+  cursor: pointer;
+  float: right;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Pagina de Pagamentos */
+
+.pagamento__form {
+  display: flex;
+
+  flex-direction: column;
+  margin: 50px auto;
+  margin-bottom: 50px;
+}
+
+/* Pagina de Cadastro */
+
+.principal {
+  width: 50vw;
+  margin: 5em auto 6em auto;
+  background-color: var(--icons-color);
+  border-radius: 10px;
+}
+
+.principal__titulo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--laranja);
+  text-align: center;
+  padding: 50px;
+}
+
+.principal__subtitulo {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  color: var(--azul);
+  margin: 3em 0 2em 0;
+}
+
+.campo__etiqueta {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--azul);
+  margin-left: 1em;
+}
+
+.campo__escrita {
+  border: 1px solid var(--azul);
+  border-radius: 24px;
+  padding: 1em;
+  width: 100%;
+}
+
+.formulario__campo {
+  margin: 0.6em 3em 0.6em 0;
+}
+
+.formulario__dupla {
+  display: flex;
+}
+
+.formulario__botao {
+  background: var(--laranja);
+  padding: 1em 4em;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  color: var(--branco);
+  cursor: pointer;
+  float: right;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+.formulario__erro {
+  display: flex;
+  margin-top: 0.5em;
+  align-items: center;
+}
+
+.erro__imagem {
+  width: 16px;
+  height: 16px;
+  margin: 0 0.5em;
+  background-image: url("../img/warning.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.erro__texto {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--vermelho);
 }
