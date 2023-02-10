@@ -1,0 +1,62 @@
+{
+  "erro": false,
+  "message": "",
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Lords of Waterdeep",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/98_m.jpg",
+      "preco": "450",
+      "quantidade": "10",
+      "categoria": "importado"
+    },
+    {
+      "id": "2",
+      "titulo": "Cartógrafos",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/21614_m.jpg",
+      "preco": "150",
+      "quantidade": "5",
+      "categoria": "nacional"
+    },
+    {
+      "id": "3",
+      "titulo": "Trajan",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/134_m.jpg",
+      "preco": "400",
+      "quantidade": "2",
+      "categoria": "importado"
+    },
+    {
+      "id": "4",
+      "titulo": "7Wonders Duel",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/8285_m.jpg",
+      "preco": "200",
+      "quantidade": "10",
+      "categoria": "importado"
+    },
+    {
+      "id": "5",
+      "titulo": "Brazil Imperial",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/14346_m.jpg",
+      "preco": "450",
+      "quantidade": "10",
+      "categoria": "nacional"
+    },
+    {
+      "id": "6",
+      "titulo": "Terra Mystica",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/404_m.jpg",
+      "preco": "550",
+      "quantidade": "1",
+      "categoria": "importado"
+    },
+    {
+      "id": "7",
+      "titulo": "Terraforming Mars",
+      "imagem": "https://storage.googleapis.com/ludopedia-capas/8858_m.jpg",
+      "preco": "350",
+      "quantidade": "10",
+      "categoria": "importado"
+    }
+  ]
+}
